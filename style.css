@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+  display: flexbox;
+}
+div {  
+  text-align: center;
+ 
+}
+
+.c1 {
+  background-color: pink;
+  width: 100px;
+  height: 100px; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c1-child {
+  background-color: beige;
+  width: 50px;
+  height: 50px;
+  left: 25px;
+  bottom: 25px;
+  position: absolute;
+}
+.caixa2Total {
+  position: fixed;
+}
+
+.c2 {
+  background-color: powderblue;
+  width: 100px;
+  height: 100px; 
+  position: absolute;
+  left: 900px;
+  top: 345px;
+}
+
+.c2-child {
+  background-color: greenyellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;  
+}
+
+.c3 {
+  background: peru;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3-child {
+  background-color: olive;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
